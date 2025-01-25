@@ -18,13 +18,14 @@ int main() {
     scanf ("%f", &PIB);
 
     printf ("Digite o numero de pontos turisticos: \n");
-    scanf ("%s", &turisticos);
+    scanf ("%d", &turisticos);
 
-    printf ("Nome da Cidade: %s", cidade);
-    printf ("Populacao: %d", populacao);
-    printf ("Area: %f", area);
-    printf ("PIB: %f", PIB);
-    printf ("Pontos turisticos: %s", turisticos);
+    printf("Nome da cidade: %s\n", cidade);
+    printf("Area: %f\n", area);
+    printf("Turísticos: %d\n", turisticos);
+    printf("Populacao: %d\n", populacao);
+    printf("PIB: %f\n", PIB);
+
 
     return 0;
 }
