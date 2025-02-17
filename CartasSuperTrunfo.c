@@ -2,8 +2,14 @@
 
 int main() {
     int populacao, turisticos;
-    float area, PIB;
-    char cidade[50];
+    float area, pib;
+    string cidade[50], estado[50]; codigo[50]
+
+    printf ("Digite seu Estado: \n");
+    scanf ("%s", &estado);
+
+    printf ("Digite o Código da carta: \n");
+    scanf ("%s", &codigo);
 
     printf ("Digite sua cidade: \n");
     scanf ("%s", &cidade);
@@ -20,6 +26,7 @@ int main() {
     printf ("Digite o numero de pontos turisticos: \n");
     scanf ("%d", &turisticos);
 
+    printf("Nome do estado: %s\n", estado);
     printf("Nome da cidade: %s\n", cidade);
     printf("Area: %f\n", area);
     printf("Turísticos: %d\n", turisticos);
