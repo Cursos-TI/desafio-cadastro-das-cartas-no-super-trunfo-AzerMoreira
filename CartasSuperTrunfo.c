@@ -3,12 +3,12 @@
 int main() {
     
     char codigo[5];          
-    char  estado [ 20 ];
-    char  cidade [ 15 ];
+    char estado[20];
+    char cidade[15];
     float area;
     int populacao;
     float pib;
-    int  pontostur ;
+    int pontostur;
 
     printf("Digite o código:\n");
     scanf("%s", &codigo); 
