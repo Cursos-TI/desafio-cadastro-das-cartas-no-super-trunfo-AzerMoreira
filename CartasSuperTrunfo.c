@@ -7,7 +7,7 @@ int main() {
     char cidade[15];
     float area;
     int populacao;
-    float pib;
+    float pib, densidadepop, pibpercapta;
     int pontostur;
 
     printf("Digite o código:\n");
@@ -38,6 +38,14 @@ int main() {
     printf("O número da população:, %d\n", populacao);
     printf ("o pib é:, %f\n" , pib);
     printf("O número de pontos turísticos:, %d\n", pontostur);
+
+    densidadepop = populacao / area;
+
+    printf("A Densidade Populacional é: %f\n", densidadepop);
+    
+    pibpercapta = pib / populacao;
+
+    printf("O PIB per capita é: %f\n", pibpercapta);
 
     return 0;
 }
