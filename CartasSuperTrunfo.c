@@ -84,5 +84,10 @@ int main() {
 
     printf("O PIB per capita é: %f\n", pibpercapta2);
 
+    if(pib > pib2){
+       printf("Jogador1 venceu!\n");
+    } else {
+       printf("Jogador2 venceu!\n"); 
+    }
     return 0;
 }
